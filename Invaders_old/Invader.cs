@@ -8,13 +8,13 @@ namespace Invaders
 		private const int HorizontalInterval = 10;
 		private const int VerticalInterval = 40;
 
-		private readonly Bitmap image;
+		private readonly Bitmap _image;
 
 		public Point Location { get; private set; }
 
 		public Type InvaderType { get; private set; }
 
-		public Rectangle Area => new Rectangle(Location, image.Size);
+		public Rectangle Area => new Rectangle(Location, _image.Size);
 
 		public int Score { get; private set; }
 

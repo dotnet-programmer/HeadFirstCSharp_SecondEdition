@@ -3,28 +3,29 @@
 	internal class Farmer
 	{
 		//public int BagsOfFeed;
-		public int BagsOfFeed { get; private set; }
-
 		//public const int FeedMultiplier = 30;
-		private readonly int feedMultiplier;
-
-		public int FeedMultiplier => feedMultiplier;
-
-		private int numberOfCows;
-		public int NumberOfCows
-		{
-			get => numberOfCows;
-			set
-			{
-				numberOfCows = value;
-				BagsOfFeed = numberOfCows * FeedMultiplier;
-			}
-		}
+		private readonly int _feedMultiplier;
+		private int _numberOfCows;
 
 		public Farmer(int numberOfCows, int feedMultiplier)
 		{
-			this.feedMultiplier = feedMultiplier;
+			_feedMultiplier = feedMultiplier;
 			NumberOfCows = numberOfCows;
+		}
+
+		public int BagsOfFeed { get; private set; }
+
+		public int FeedMultiplier 
+			=> _feedMultiplier;
+
+		public int NumberOfCows
+		{
+			get => _numberOfCows;
+			set
+			{
+				_numberOfCows = value;
+				BagsOfFeed = _numberOfCows * FeedMultiplier;
+			}
 		}
 	}
 }

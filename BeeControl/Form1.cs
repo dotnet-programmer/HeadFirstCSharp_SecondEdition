@@ -6,8 +6,8 @@ namespace BeeControl
 {
 	public partial class Form1 : Form
 	{
-		private BeeControl control = null;
-		private int cell = 0;
+		private BeeControl _control = null;
+		private int _cell = 0;
 
 		public Form1()
 		{
@@ -17,25 +17,25 @@ namespace BeeControl
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			if (control == null)
+			if (_control == null)
 			{
-				control = new BeeControl() { Location = new Point(100, 100) };
-				Controls.Add(control);
+				_control = new BeeControl() { Location = new Point(100, 100) };
+				Controls.Add(_control);
 			}
 			else
 			{
-				using (control)
+				using (_control)
 				{
-					Controls.Remove(control);
+					Controls.Remove(_control);
 				}
-				control = null;
+				_control = null;
 			}
 		}
 
 		private void timer1_Tick(object sender, EventArgs e)
 		{
-			cell++;
-			switch (cell)
+			_cell++;
+			switch (_cell)
 			{
 				case 1:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_1;
@@ -60,7 +60,7 @@ namespace BeeControl
 				default:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_2;
 					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-					cell = 0;
+					_cell = 0;
 					break;
 			}
 		}

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C976AD2F-9C6D-4053-BAED-3116B07A11E8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hexdumper</RootNamespace>
-    <AssemblyName>hexdumper</AssemblyName>
+    <RootNamespace>Hexdumper</RootNamespace>
+    <AssemblyName>Hexdumper</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -5,14 +5,14 @@ namespace BeeControl_UserControl
 {
 	public partial class BeeControl : UserControl
 	{
-		private int cell = 0;
+		private int _cell = 0;
 
 		public BeeControl() => InitializeComponent();
 
 		private void animationTimer_Tick(object sender, EventArgs e)
 		{
-			cell++;
-			switch (cell)
+			_cell++;
+			switch (_cell)
 			{
 				case 1:
 					BackgroundImage = Properties.Resources.Bee_animation_1;
@@ -31,7 +31,7 @@ namespace BeeControl_UserControl
 					break;
 				default:
 					BackgroundImage = Properties.Resources.Bee_animation_2;
-					cell = 0;
+					_cell = 0;
 					break;
 			}
 		}

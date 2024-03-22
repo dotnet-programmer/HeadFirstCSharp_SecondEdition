@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace hexdumper
+namespace Hexdumper
 {
 	internal class Program
 	{
@@ -10,7 +10,7 @@ namespace hexdumper
 		{
 			if (args.Length != 1)
 			{
-				Console.Error.WriteLine("Sposób użycia: hexdumper plik-do-wyswietlenia");
+				Console.Error.WriteLine("Sposób użycia: Hexdumper plik-do-wyswietlenia");
 				System.Environment.Exit(1);
 			}
 

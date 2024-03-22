@@ -6,17 +6,17 @@ namespace BeeControl
 {
 	internal class BeeControl : PictureBox
 	{
-		private readonly Timer animationTimer = new Timer();
-		private int cell = 0;
-		private readonly Random random = new Random();
-		private Rectangle boundaries = new Rectangle(50, 50, 650, 350);
-		private readonly int MoveInterval = 50;
+		private readonly Timer _animationTimer = new Timer();
+		private int _cell = 0;
+		private readonly Random _random = new Random();
+		private Rectangle _boundaries = new Rectangle(50, 50, 650, 350);
+		private readonly int _moveInterval = 50;
 
 		public BeeControl()
 		{
-			animationTimer.Tick += AnimationTimer_Tick;
-			animationTimer.Interval = 80;
-			animationTimer.Start();
+			_animationTimer.Tick += AnimationTimer_Tick;
+			_animationTimer.Interval = 80;
+			_animationTimer.Start();
 			BackColor = Color.Transparent;
 			BackgroundImageLayout = ImageLayout.Zoom;
 			Size = new Size(200, 200);
@@ -24,8 +24,8 @@ namespace BeeControl
 
 		private void AnimationTimer_Tick(object sender, EventArgs e)
 		{
-			cell++;
-			switch (cell)
+			_cell++;
+			switch (_cell)
 			{
 				case 1:
 					BackgroundImage = Properties.Resources.Bee_animation_1;
@@ -44,43 +44,37 @@ namespace BeeControl
 					break;
 				default:
 					BackgroundImage = Properties.Resources.Bee_animation_2;
-					cell = 0;
+					_cell = 0;
 					break;
 			}
-			int X = Location.X;
-			int Y = Location.Y;
-			Direction direction = (Direction)random.Next(4);
 
+			Direction direction = (Direction)_random.Next(4);
 			Point newLocation = Location;
 			switch (direction)
 			{
 				case Direction.Up:
-					if (newLocation.Y - MoveInterval >= boundaries.Top)
+					if (newLocation.Y - _moveInterval >= _boundaries.Top)
 					{
-						newLocation.Y -= MoveInterval;
+						newLocation.Y -= _moveInterval;
 					}
-
 					break;
 				case Direction.Down:
-					if (newLocation.Y + MoveInterval <= boundaries.Bottom)
+					if (newLocation.Y + _moveInterval <= _boundaries.Bottom)
 					{
-						newLocation.Y += MoveInterval;
+						newLocation.Y += _moveInterval;
 					}
-
 					break;
 				case Direction.Left:
-					if (newLocation.X - MoveInterval >= boundaries.Left)
+					if (newLocation.X - _moveInterval >= _boundaries.Left)
 					{
-						newLocation.X -= MoveInterval;
+						newLocation.X -= _moveInterval;
 					}
-
 					break;
 				case Direction.Right:
-					if (newLocation.X + MoveInterval <= boundaries.Right)
+					if (newLocation.X + _moveInterval <= _boundaries.Right)
 					{
-						newLocation.X += MoveInterval;
+						newLocation.X += _moveInterval;
 					}
-
 					break;
 				default: break;
 			}
@@ -97,7 +91,7 @@ namespace BeeControl
 			base.Dispose(disposing);
 			if (disposing)
 			{
-				animationTimer.Dispose();
+				_animationTimer.Dispose();
 			}
 		}
 	}

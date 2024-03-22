@@ -1,0 +1,48 @@
+﻿using System;
+
+namespace Deck_of_cards_serialization_to_file
+{
+	[Serializable]
+	internal class Card
+	{
+		public Suits Suit;
+		public Values Value;
+
+		public Card(Suits Suit, Values Value)
+		{
+			this.Suit = Suit;
+			this.Value = Value;
+		}
+
+		public string Name
+			=> Value + " of " + Suit;
+
+		public override string ToString()
+			=> Name;
+	}
+
+	internal enum Suits
+	{
+		Spades,
+		Clubs,
+		Diamonds,
+		Hearts
+	}
+
+	internal enum Values
+	{
+		Ace = 1,
+		Two = 2,
+		Three = 3,
+		Four = 4,
+		Five = 5,
+		Six = 6,
+		Seven = 7,
+		Eight = 8,
+		Nine = 9,
+		Ten = 10,
+		Jack = 11,
+		Queen = 12,
+		King = 13
+	}
+}

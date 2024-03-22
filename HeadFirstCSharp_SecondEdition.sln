@@ -3,149 +3,147 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bar_Niechlujny_Janek", "Bar_Niechlujny_Janek\Bar_Niechlujny_Janek.csproj", "{A567D2B4-6C80-4593-8159-0D114A6730CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{A567D2B4-6C80-4593-8159-0D114A6730CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeControl", "BeeControl\BeeControl.csproj", "{245490E0-2E0C-4311-B4A5-1AE44BE5A373}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeControl_UserControl", "BeeControl_UserControl\BeeControl_UserControl.csproj", "{F61AA916-6E72-453F-A128-2D38C485571E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blyskotliwy_projekt", "Blyskotliwy_projekt\Blyskotliwy_projekt.csproj", "{FEA3C1D6-4465-420F-9354-19A8D7CA2B4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colorful_project", "Colorful_project\Colorful_project.csproj", "{FEA3C1D6-4465-420F-9354-19A8D7CA2B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegaty", "Delegaty\Delegaty.csproj", "{2DEE018D-7198-4712-8809-3C1D3E8E1CB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{2DEE018D-7198-4712-8809-3C1D3E8E1CB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegaty_2", "Delegaty_2\Delegaty_2.csproj", "{3B891398-ED0A-4F7F-8733-6F73C6366866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_2", "Delegates_2\Delegates_2.csproj", "{3B891398-ED0A-4F7F-8733-6F73C6366866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom", "Dom\Dom.csproj", "{2B1334FA-6ECB-4F64-A130-955819FD47E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "House\House.csproj", "{2B1334FA-6ECB-4F64-A130-955819FD47E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom_gra", "Dom_gra\Dom_gra.csproj", "{D1697687-25AE-47F1-A602-BA7D6D1043FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House_game", "House_game\House_game.csproj", "{D1697687-25AE-47F1-A602-BA7D6D1043FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom2", "Dom2\Dom2.csproj", "{D2ED4B37-6443-4828-BB35-AB3D2367DD0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House_2", "House_2\House_2.csproj", "{D2ED4B37-6443-4828-BB35-AB3D2367DD0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drukowanie", "Drukowanie\Drukowanie.csproj", "{87D24A3C-A819-4CA0-A70B-7D5220040C1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print", "Print\Print.csproj", "{87D24A3C-A819-4CA0-A70B-7D5220040C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drwale_nalesniki", "Drwale_nalesniki\Drwale_nalesniki.csproj", "{5FFDFE30-9BEC-4777-8E94-AE5DA66BF4B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumberjack_pancakes", "Lumberjack_pancakes\Lumberjack_pancakes.csproj", "{5FFDFE30-9BEC-4777-8E94-AE5DA66BF4B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziedziczenie", "Dziedziczenie\Dziedziczenie.csproj", "{AB5B035A-2535-494B-BE41-C0EE7BE5484E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{AB5B035A-2535-494B-BE41-C0EE7BE5484E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziedziczenie_test", "Dziedziczenie_test\Dziedziczenie_test.csproj", "{A0F62092-D6A0-41E9-8878-741DC686F11B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_test", "Inheritance_test\Inheritance_test.csproj", "{A0F62092-D6A0-41E9-8878-741DC686F11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzien_na_wyscigach", "Dzien_na_wyscigach\Dzien_na_wyscigach.csproj", "{1C396213-CE40-4844-BF63-538F763B6AD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racing", "Racing\Racing.csproj", "{1C396213-CE40-4844-BF63-538F763B6AD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmer", "Farmer\Farmer.csproj", "{4283C52A-87DA-45DF-B0F8-0714584AAEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gra_Idz_na_ryby", "Gra_Idz_na_ryby\Gra_Idz_na_ryby.csproj", "{7D6B022F-E9D1-4D17-9D1F-FDFA88ECECF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game_go_fishing", "Game_go_fishing\Game_go_fishing.csproj", "{7D6B022F-E9D1-4D17-9D1F-FDFA88ECECF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gra_Literki", "Gra_Literki\Gra_Literki.csproj", "{BED2380E-EF02-42E7-BBD9-06B8F25ABB3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letter_game", "Letter_game\Letter_game.csproj", "{BED2380E-EF02-42E7-BBD9-06B8F25ABB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gra_przygodowa-Wyprawa", "Gra_przygodowa-Wyprawa\Gra_przygodowa-Wyprawa.csproj", "{E76E0869-0672-4ADE-9093-1232974BF76D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure_game_Expedition", "Adventure_game_Expedition\Adventure_game_Expedition.csproj", "{E76E0869-0672-4ADE-9093-1232974BF76D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafika_1", "Grafika_1\Grafika_1.csproj", "{60F05CFF-0B34-46C1-AA2C-EA704B1ECC86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics_1", "Graphics_1\Graphics_1.csproj", "{60F05CFF-0B34-46C1-AA2C-EA704B1ECC86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafika_2", "Grafika_2\Grafika_2.csproj", "{CE897593-176C-42F9-942E-2256DB958762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics_2", "Graphics_2\Graphics_2.csproj", "{CE897593-176C-42F9-942E-2256DB958762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafika_3", "Grafika_3\Grafika_3.csproj", "{9A984FC5-66CA-4DE9-9542-3115067A7B44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics_3", "Graphics_3\Graphics_3.csproj", "{9A984FC5-66CA-4DE9-9542-3115067A7B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hexdumper", "hexdumper\hexdumper.csproj", "{C976AD2F-9C6D-4053-BAED-3116B07A11E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexdumper", "Hexdumper\Hexdumper.csproj", "{C976AD2F-9C6D-4053-BAED-3116B07A11E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejs1", "Interfejs1\Interfejs1.csproj", "{8837BF3E-0E4F-4498-9DB3-4B82A9B3CEA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_1", "Interface_1\Interface_1.csproj", "{8837BF3E-0E4F-4498-9DB3-4B82A9B3CEA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejs2", "Interfejs2\Interfejs2.csproj", "{FA61698E-1D6D-4F24-AF00-EF1CE26AD346}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_2", "Interface_2\Interface_2.csproj", "{FA61698E-1D6D-4F24-AF00-EF1CE26AD346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejs3", "Interfejs3\Interfejs3.csproj", "{E0A9FE9A-82FA-418F-AF7A-EE58A43A28A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_3", "Interface_3\Interface_3.csproj", "{E0A9FE9A-82FA-418F-AF7A-EE58A43A28A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invaders", "Invaders_old\Invaders.csproj", "{C8BE8747-2FF7-4DA6-A886-7EAE5946A148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaczki_sortowanie", "Kaczki_sortowanie\Kaczki_sortowanie.csproj", "{FC13F80B-4AA9-4465-B513-D8CF881F22AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{FC13F80B-4AA9-4465-B513-D8CF881F22AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator_kosztow_podrozy", "Kalkulator_kosztow_podrozy\Kalkulator_kosztow_podrozy.csproj", "{916EA2ED-F17B-41F9-AF7F-B42F4B2C28F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel_cost_calculator", "Travel_cost_calculator\Travel_cost_calculator.csproj", "{916EA2ED-F17B-41F9-AF7F-B42F4B2C28F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karty_Listy", "Karty_Listy\Karty_Listy.csproj", "{8F868A75-1AEA-4374-857E-E8D392760854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{8F868A75-1AEA-4374-857E-E8D392760854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konsola1", "Konsola1\Konsola1.csproj", "{8A647C27-4016-45A3-9DB3-16FD3623CE37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_1", "Console_1\Console_1.csproj", "{8A647C27-4016-45A3-9DB3-16FD3623CE37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konstruktory", "Konstruktory\Konstruktory.csproj", "{E33F62DE-EB8D-42E5-B72E-3AEF73ECB953}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{E33F62DE-EB8D-42E5-B72E-3AEF73ECB953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontakty", "Kontakty\Kontakty.csproj", "{1D95813D-7D03-4E07-8844-A62B4831A5B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts", "Contacts\Contacts.csproj", "{1D95813D-7D03-4E07-8844-A62B4831A5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnesy_metody_rozszezajace", "Magnesy_metody_rozszezajace\Magnesy_metody_rozszezajace.csproj", "{5D6FFA74-4CC1-4AD8-9083-97BE3D600237}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnets_Extension_methods", "Magnets_Extension_methods\Magnets_Extension_methods.csproj", "{5D6FFA74-4CC1-4AD8-9083-97BE3D600237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnesy_wyjatki", "Magnesy_wyjatki\Magnesy_wyjatki.csproj", "{13D39651-CC0D-494F-909E-669648AF19AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnets_Exceptions", "Magnets_Exceptions\Magnets_Exceptions.csproj", "{13D39651-CC0D-494F-909E-669648AF19AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nacisnij_klawisz", "Nacisnij_klawisz\Nacisnij_klawisz.csproj", "{98FFE287-EDFF-46C1-A174-3F42EA90D8F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Press_key", "Press_key\Press_key.csproj", "{98FFE287-EDFF-46C1-A174-3F42EA90D8F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okna_dialogowe_open_save", "Okna_dialogowe_open_save\Okna_dialogowe_open_save.csproj", "{E6C55FE3-33A8-4556-9364-AA616DD295AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dialogs_open_save", "Dialogs_open_save\Dialogs_open_save.csproj", "{E6C55FE3-33A8-4556-9364-AA616DD295AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organizacja_przyjecia", "Organizacja_przyjecia\Organizacja_przyjecia.csproj", "{EC8FFCAC-F13A-4A36-88BE-4A5C94043398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party_organization", "Party_organization\Party_organization.csproj", "{EC8FFCAC-F13A-4A36-88BE-4A5C94043398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organizacja_przyjecia_2", "Organizacja_przyjecia_2\Organizacja_przyjecia_2.csproj", "{1862FF68-DD41-4448-AB18-566546528A0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party_organization_2", "Party_organization_2\Party_organization_2.csproj", "{1862FF68-DD41-4448-AB18-566546528A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organizacja_przyjecia_3", "Organizacja_przyjecia_3\Organizacja_przyjecia_3.csproj", "{C2CD001F-C895-4804-BB40-9E993BD09762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party_organization_3", "Party_organization_3\Party_organization_3.csproj", "{C2CD001F-C895-4804-BB40-9E993BD09762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organizacja_przyjecia_4", "Organizacja_przyjecia_4\Organizacja_przyjecia_4.csproj", "{FBBD72CA-0395-4C1D-9E8E-957455A07183}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party_organization_4", "Party_organization_4\Party_organization_4.csproj", "{FBBD72CA-0395-4C1D-9E8E-957455A07183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pozyczanie_pieniedzy", "Pozyczanie_pieniedzy\Pozyczanie_pieniedzy.csproj", "{5317EC45-0EFD-4BB3-A4F8-845708966C4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borrowing_money", "Borrowing_money\Borrowing_money.csproj", "{5317EC45-0EFD-4BB3-A4F8-845708966C4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pozyczanie_pieniedzy_2", "Pozyczanie_pieniedzy2\Pozyczanie_pieniedzy_2.csproj", "{18C935E5-9579-4981-855E-4159AF5B42EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borrowing_money_2", "Borrowing_money_2\Borrowing_money_2.csproj", "{18C935E5-9579-4981-855E-4159AF5B42EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt_testowy", "Projekt_testowy\Projekt_testowy.csproj", "{6E0D1D5B-D41E-4308-8CB8-206F54E7CD02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_project", "Test_project\Test_project.csproj", "{6E0D1D5B-D41E-4308-8CB8-206F54E7CD02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ptaki", "Ptaki\Ptaki.csproj", "{84A92F1F-8B7C-4015-8CFD-E57CDFA41198}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birds", "Birds\Birds.csproj", "{84A92F1F-8B7C-4015-8CFD-E57CDFA41198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pusty_projekt", "Pusty_projekt\Pusty_projekt.csproj", "{62FB2FB0-0823-4273-99E8-278FF62DF11A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elephants", "Elephants\Elephants.csproj", "{0CE1E10D-3D2E-46FF-88F2-66A55CF331C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slonie", "Slonie\Slonie.csproj", "{0CE1E10D-3D2E-46FF-88F2-66A55CF331C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{A8D6E859-EA31-4B8E-85E5-6ABC03D0A596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slownik", "Slownik\Slownik.csproj", "{A8D6E859-EA31-4B8E-85E5-6ABC03D0A596}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnets_StreamWriter", "Magnets_StreamWriter\Magnets_StreamWriter.csproj", "{2CE2CBEF-61A6-49B0-8522-EE143C7D49D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriter-magnesy", "StreamWriter-magnesy\StreamWriter-magnesy.csproj", "{2CE2CBEF-61A6-49B0-8522-EE143C7D49D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive_simulator", "Hive_simulator\Hive_simulator.csproj", "{18237D7C-CE83-4B37-8B43-68B0FCA2A284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symulator_ula", "Symulator_ula\Symulator_ula.csproj", "{18237D7C-CE83-4B37-8B43-68B0FCA2A284}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive_simulator_2", "Hive_simulator_2\Hive_simulator_2.csproj", "{5F047B05-C29B-49AF-B3BD-D6BCA1DDA1E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symulator_ula_2", "Symulator_ula_2\Symulator_ula_2.csproj", "{5F047B05-C29B-49AF-B3BD-D6BCA1DDA1E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive_management_system", "Hive_management_system\Hive_management_system.csproj", "{8D278094-4C46-4B49-8E2D-0AEC6D12774D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemZarzadzaniaUlem", "SystemZarzadzaniaUlem\SystemZarzadzaniaUlem.csproj", "{8D278094-4C46-4B49-8E2D-0AEC6D12774D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hive_management_system_2", "Hive_management_system_2\Hive_management_system_2.csproj", "{C187B764-C925-4E98-AB3A-6C386B75F585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemZarzadzaniaUlem2", "SystemZarzadzaniaUlem2\SystemZarzadzaniaUlem2.csproj", "{C187B764-C925-4E98-AB3A-6C386B75F585}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck_of_cards", "Deck_of_cards\Deck_of_cards.csproj", "{326D4F12-89C0-4897-B5E0-C3F985962E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talia_kart", "Talia_kart\Talia_kart.csproj", "{326D4F12-89C0-4897-B5E0-C3F985962E68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck_of_cards_sorting", "Deck_of_cards_sorting\Deck_of_cards_sorting.csproj", "{08136C6C-137C-4CB9-92F9-F9CA1C0BB447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talia_kart_sortowanie", "Talia_kart_sortowanie\Talia_kart_sortowanie.csproj", "{08136C6C-137C-4CB9-92F9-F9CA1C0BB447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck_of_cards_serialization_to_file", "Deck_of_cards_serialization_to_file\Deck_of_cards_serialization_to_file.csproj", "{521F3459-E2BA-498E-9198-A096C9A9FFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talia_kart_zapis_do_pliku-serializacja", "Talia_kart_zapis_do_pliku-serializacja\Talia_kart_zapis_do_pliku-serializacja.csproj", "{521F3459-E2BA-498E-9198-A096C9A9FFF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New_class_tests", "New_class_tests\New_class_tests.csproj", "{C8BD5A60-4D5C-4F28-9581-02B37C2A75EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testy_nowej_klasy", "Testy_nowej_klasy\Testy_nowej_klasy.csproj", "{C8BD5A60-4D5C-4F28-9581-02B37C2A75EA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timer_test", "timer_test\timer_test.csproj", "{A3F47FB6-94C5-42D6-83DE-5C8DEBA5CAF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer_test", "Timer_test\Timer_test.csproj", "{A3F47FB6-94C5-42D6-83DE-5C8DEBA5CAF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unicode", "Unicode\Unicode.csproj", "{7A42DFAB-6CA6-4281-A00D-4196E68E5E84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walnij_Kreta", "Walnij_Kreta\Walnij_Kreta.csproj", "{88A98244-47A3-4D0E-AACD-4CBA074B0DBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hit_mole", "Hit_mole\Hit_mole.csproj", "{88A98244-47A3-4D0E-AACD-4CBA074B0DBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wyspa_Fiji", "Wyspa_Fiji\Wyspa_Fiji.csproj", "{1F5F9FE1-2797-4857-8F47-A490AF7CD648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiji_island", "Fiji_island\Fiji_island.csproj", "{1F5F9FE1-2797-4857-8F47-A490AF7CD648}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zabawa instrukcjami if-else", "Zabawa instrukcjami if-else\Zabawa instrukcjami if-else.csproj", "{3AF2CE9E-DDBE-4F86-8B8F-FCAD91C7CE99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If_else_statements", "If_else_statements\If_else_statements.csproj", "{3AF2CE9E-DDBE-4F86-8B8F-FCAD91C7CE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen_1", "Zagadkowy_basen_1\Zagadkowy_basen_1.csproj", "{914CFA65-7353-4EC0-933C-C879ECA54CCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_1", "Riddle_pool_1\Riddle_pool_1.csproj", "{914CFA65-7353-4EC0-933C-C879ECA54CCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen_2", "Zagadkowy_basen_2\Zagadkowy_basen_2.csproj", "{D33654EA-C1E2-4D17-B0B1-66B3762F8768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_2", "Riddle_pool_2\Riddle_pool_2.csproj", "{D33654EA-C1E2-4D17-B0B1-66B3762F8768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen_3", "Zagadkowy_basen_3\Zagadkowy_basen_3.csproj", "{EE549AD4-EE6D-4350-AD69-09C2B27897FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_3", "Riddle_pool_3\Riddle_pool_3.csproj", "{EE549AD4-EE6D-4350-AD69-09C2B27897FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen_4", "Zagadkowy_basen_4\Zagadkowy_basen_4.csproj", "{5200B974-558A-4974-B8E7-57E172A1B0AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_4", "Riddle_pool_4\Riddle_pool_4.csproj", "{5200B974-558A-4974-B8E7-57E172A1B0AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen_5", "Zagadkowy_basen_5\Zagadkowy_basen_5.csproj", "{F610C35C-EEDE-4645-A214-F53B86EB5A8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_5", "Riddle_pool_5\Riddle_pool_5.csproj", "{F610C35C-EEDE-4645-A214-F53B86EB5A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zagadkowy_basen", "Zagadkowy_basen_6\Zagadkowy_basen.csproj", "{29E72B95-3629-42A1-BC51-1738804F0F4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Riddle_pool_6", "Riddle_pool_6\Riddle_pool_6.csproj", "{29E72B95-3629-42A1-BC51-1738804F0F4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapis_danych_binarnych", "Zapis_danych_binarnych\Zapis_danych_binarnych.csproj", "{C01940D0-9B6D-4F94-A55A-AAD8233E737C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary_data", "Binary_data\Binary_data.csproj", "{C01940D0-9B6D-4F94-A55A-AAD8233E737C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zarzadzanie_wymowkami", "Zarzadzanie_wymowkami\Zarzadzanie_wymowkami.csproj", "{AF5ABE51-FA7F-4EB9-9DF7-79DB6A4AB176}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excuses_management", "Excuses_management\Excuses_management.csproj", "{AF5ABE51-FA7F-4EB9-9DF7-79DB6A4AB176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zarzadzanie_wymowkami_2", "Zarzadzanie_wymowkami2\Zarzadzanie_wymowkami_2.csproj", "{6A4A89F2-71C9-401B-B57D-5BBD40E11E87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excuses_management_2", "Excuses_management_2\Excuses_management_2.csproj", "{6A4A89F2-71C9-401B-B57D-5BBD40E11E87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zdarzenia_1", "Zdarzenia_1\Zdarzenia_1.csproj", "{744F43B0-971A-4676-AF06-31E08349A1E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_1", "Events_1\Events_1.csproj", "{744F43B0-971A-4676-AF06-31E08349A1E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zdarzenia_2", "Zdarzenia_2\Zdarzenia_2.csproj", "{317CCA70-7163-40C8-8EC3-35A29EFC8B7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events_2", "Events_2\Events_2.csproj", "{317CCA70-7163-40C8-8EC3-35A29EFC8B7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,10 +327,6 @@ Global
 		{84A92F1F-8B7C-4015-8CFD-E57CDFA41198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A92F1F-8B7C-4015-8CFD-E57CDFA41198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A92F1F-8B7C-4015-8CFD-E57CDFA41198}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62FB2FB0-0823-4273-99E8-278FF62DF11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62FB2FB0-0823-4273-99E8-278FF62DF11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62FB2FB0-0823-4273-99E8-278FF62DF11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62FB2FB0-0823-4273-99E8-278FF62DF11A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0CE1E10D-3D2E-46FF-88F2-66A55CF331C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0CE1E10D-3D2E-46FF-88F2-66A55CF331C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CE1E10D-3D2E-46FF-88F2-66A55CF331C3}.Release|Any CPU.ActiveCfg = Release|Any CPU

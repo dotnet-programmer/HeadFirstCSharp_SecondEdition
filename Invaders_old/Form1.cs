@@ -6,12 +6,13 @@ namespace Invaders
 {
 	public partial class Form1 : Form
 	{
-		private readonly List<Keys> keysPressed = new List<Keys>();
+		private readonly List<Keys> _keysPressed = new List<Keys>();
 
-		private readonly bool gameOver;
-		private readonly Game game;
+		private readonly bool _gameOver;
+		private readonly Game _game;
 
-		public Form1() => InitializeComponent();
+		public Form1() 
+			=> InitializeComponent();
 
 		private void Form1_KeyDown(object sender, KeyEventArgs e)
 		{
@@ -20,7 +21,7 @@ namespace Invaders
 				Application.Exit();
 			}
 
-			if (gameOver)
+			if (_gameOver)
 			{
 				if (e.KeyCode == Keys.S)
 				{
@@ -31,39 +32,39 @@ namespace Invaders
 
 			if (e.KeyCode == Keys.Space)
 			{
-				game.FireShot();
+				_game.FireShot();
 			}
 
-			if (keysPressed.Contains(e.KeyCode))
+			if (_keysPressed.Contains(e.KeyCode))
 			{
-				keysPressed.Remove(e.KeyCode);
+				_keysPressed.Remove(e.KeyCode);
 			}
 
-			keysPressed.Add(e.KeyCode);
+			_keysPressed.Add(e.KeyCode);
 		}
 
 		private void Form1_KeyUp(object sender, KeyEventArgs e)
 		{
-			if (keysPressed.Contains(e.KeyCode))
+			if (_keysPressed.Contains(e.KeyCode))
 			{
-				keysPressed.Remove(e.KeyCode);
+				_keysPressed.Remove(e.KeyCode);
 			}
 		}
 
 		private void gameTimer_Tick(object sender, EventArgs e)
 		{
-			game.Go();
+			_game.Go();
 
-			foreach (var item in keysPressed)
+			foreach (var item in _keysPressed)
 			{
 				if (item == Keys.Left)
 				{
-					game.MovePlayer(Direction.Left);
+					_game.MovePlayer(Direction.Left);
 					return;
 				}
 				else if (item == Keys.Right)
 				{
-					game.MovePlayer(Direction.Right);
+					_game.MovePlayer(Direction.Right);
 					return;
 				}
 			}

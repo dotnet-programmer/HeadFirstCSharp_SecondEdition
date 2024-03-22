@@ -1,4 +1,4 @@
-﻿namespace timer_test
+﻿namespace Timer_test
 {
 	partial class Form1
 	{
