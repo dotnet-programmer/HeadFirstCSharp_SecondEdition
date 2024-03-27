@@ -11,7 +11,7 @@ namespace Borrowing_money_2
 
 		public int GiveCash(int amount)
 		{
-			if (amount <= Cash && amount > 0)
+			if (amount > 0 && amount <= Cash)
 			{
 				Cash -= amount;
 				return amount;

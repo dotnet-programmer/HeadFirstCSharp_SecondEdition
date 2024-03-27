@@ -9,8 +9,8 @@ namespace Adventure_game_Expedition.Weapons
 		{
 		}
 
-		public override string Name 
-			=> "Buława";
+		public override string Name
+			=> WeaponName.Mace;
 
 		public override void Attack(Direction direction, Random random, Stats stats)
 		{

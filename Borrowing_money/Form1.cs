@@ -36,7 +36,7 @@ namespace Borrowing_money
 		}
 
 		/// <summary>
-		/// Daj pieniądze Joemu
+		/// Take the money from the bank and give it to Joe
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
@@ -54,7 +54,7 @@ namespace Borrowing_money
 		}
 
 		/// <summary>
-		/// Wez od Boba
+		/// Take the money from Bob and give it to the bank
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
@@ -65,7 +65,7 @@ namespace Borrowing_money
 		}
 
 		/// <summary>
-		/// Joe daje Bobowi
+		/// Take the money from Joe and give it to Bob
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
@@ -76,7 +76,7 @@ namespace Borrowing_money
 		}
 
 		/// <summary>
-		/// Bob daje Joemu
+		/// Take the money from Bob and give it to Joe
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>

@@ -17,7 +17,7 @@ namespace Adventure_game_Expedition
 			}
 
 			Direction direction = (random.Next(2) == 0) ? (Direction)random.Next(4) : FindPlayerDirection(game.PlayerLocation);
-			base.location = Move(direction, game.Boundaries);
+			location = Move(direction, game.Boundaries);
 
 			if (NearPlayer())
 			{

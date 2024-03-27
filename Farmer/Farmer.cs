@@ -2,8 +2,6 @@
 {
 	internal class Farmer
 	{
-		//public int BagsOfFeed;
-		//public const int FeedMultiplier = 30;
 		private readonly int _feedMultiplier;
 		private int _numberOfCows;
 

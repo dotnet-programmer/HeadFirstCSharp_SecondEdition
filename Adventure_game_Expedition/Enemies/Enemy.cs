@@ -12,18 +12,18 @@ namespace Adventure_game_Expedition
 		public Enemy(Game game, Point location, int hitPoints) : base(game, location)
 			=> _hitPoints = hitPoints;
 
-		public int HitPoints 
+		public int HitPoints
 			=> _hitPoints;
 
-		public bool Dead 
+		public bool Dead
 			=> _hitPoints <= 0;
 
 		public abstract void Move(Random random);
 
-		public void Hit(int maxDamage, Random random) 
+		public void Hit(int maxDamage, Random random)
 			=> _hitPoints -= random.Next(1, maxDamage);
 
-		protected bool NearPlayer() 
+		protected bool NearPlayer()
 			=> (Nearby(game.PlayerLocation, NearPlayerDistance));
 
 		protected Direction FindPlayerDirection(Point playerLocation)

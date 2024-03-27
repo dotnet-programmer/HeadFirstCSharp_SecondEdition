@@ -5,19 +5,16 @@ namespace Adventure_game_Expedition
 {
 	public partial class ChoosePlayerForm : Form
 	{
-		private string _playerName;
-		
-		public ChoosePlayerForm() 
+		public ChoosePlayerForm()
 			=> InitializeComponent();
 
-		public string PlayerName 
-			=> _playerName;
+		public string PlayerName { get; private set; }
 
-		private void BtnCancel_Click(object sender, EventArgs e) 
-			=> Close();
-
-		private void BtnStart_Click(object sender, EventArgs e) 
+		private void BtnStart_Click(object sender, EventArgs e)
 			=> StartGame();
+
+		private void BtnCancel_Click(object sender, EventArgs e)
+			=> Close();
 
 		private void Form2_KeyDown(object sender, KeyEventArgs e)
 		{
@@ -25,8 +22,7 @@ namespace Adventure_game_Expedition
 			{
 				StartGame();
 			}
-
-			if (e.KeyCode == Keys.Escape)
+			else if (e.KeyCode == Keys.Escape)
 			{
 				Close();
 			}
@@ -39,7 +35,7 @@ namespace Adventure_game_Expedition
 				MessageBox.Show("Podaj imie!");
 				return;
 			}
-			_playerName = TextPlayerName.Text;
+			PlayerName = TextPlayerName.Text;
 			DialogResult = DialogResult.OK;
 		}
 	}

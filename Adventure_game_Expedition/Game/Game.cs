@@ -1,8 +1,8 @@
-﻿using Adventure_game_Expedition.Weapons;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using Adventure_game_Expedition.Weapons;
 
 namespace Adventure_game_Expedition
 {
@@ -21,26 +21,26 @@ namespace Adventure_game_Expedition
 			_player = new Player(this, new Point(boundaries.Left + 10, boundaries.Top + 70));
 		}
 
-		public Point PlayerLocation 
+		public Point PlayerLocation
 			=> _player.Location;
 
-		public int PlayerHitPoints 
+		public int PlayerHitPoints
 			=> _player.HitPoints;
 
-		public List<string> PlayerWeapons 
+		public List<string> PlayerWeapons
 			=> _player.Weapons;
 
-		public Weapon EquippedWeapon 
+		public Weapon EquippedWeapon
 			=> _player.EquippedWeapon;
 
-		public int Level 
+		public int Level
 			=> _level;
 
-		public Rectangle Boundaries 
+		public Rectangle Boundaries
 			=> _boundaries;
 
-		public void Move(Direction direction, Random random, Stats stats) 
-			=> _player.Move(direction, stats); //foreach (var item in Enemies) // item.Move(random);
+		public void Move(Direction direction, Stats stats)
+			=> _player.Move(direction, stats);
 
 		public void MoveEnemies(Random random)
 		{
@@ -50,23 +50,22 @@ namespace Adventure_game_Expedition
 			}
 		}
 
-		public void Equip(string weaponName) 
+		public void Equip(string weaponName)
 			=> _player.Equip(weaponName);
 
-		public bool CheckPlayerInventory(string weaponName) 
+		public bool CheckPlayerInventory(string weaponName)
 			=> _player.Weapons.Contains(weaponName);
 
-		public void HitPlayer(int maxDamage, Random random) 
+		public void HitPlayer(int maxDamage, Random random)
 			=> _player.Hit(maxDamage, random);
 
-		public void IncreasePlayerHealth(int health, Random random) 
+		public void IncreasePlayerHealth(int health, Random random)
 			=> _player.IncreaseHealth(health, random);
 
-		public void Attack(Direction direction, Random random, Stats stats) 
+		public void Attack(Direction direction, Random random, Stats stats)
 			=> _player.Attack(direction, random, stats);
-		//foreach (var item in Enemies)//	item.Move(random);
 
-		private Point GetRandomLocation(Random random) 
+		private Point GetRandomLocation(Random random)
 			=> new Point(
 				_boundaries.Left + random.Next(_boundaries.Right / 10 - _boundaries.Left / 10) * 10,
 				_boundaries.Top + random.Next(_boundaries.Bottom / 10 - _boundaries.Top / 10) * 10);

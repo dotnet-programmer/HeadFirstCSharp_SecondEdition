@@ -1,7 +1,7 @@
-﻿using Adventure_game_Expedition.Weapons;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using Adventure_game_Expedition.Weapons;
 
 namespace Adventure_game_Expedition
 {
@@ -12,10 +12,10 @@ namespace Adventure_game_Expedition
 		private Weapon _equippedWeapon;
 		private int _hitPoints;
 
-		public Player(Game game, Point location) : base(game, location) 
+		public Player(Game game, Point location) : base(game, location)
 			=> _hitPoints = 10;
 
-		public Weapon EquippedWeapon 
+		public Weapon EquippedWeapon
 			=> _equippedWeapon;
 
 		public int HitPoints
@@ -35,10 +35,10 @@ namespace Adventure_game_Expedition
 			}
 		}
 
-		public void Hit(int maxDamage, Random random) 
+		public void Hit(int maxDamage, Random random)
 			=> _hitPoints -= random.Next(1, maxDamage);
 
-		public void IncreaseHealth(int health, Random random) 
+		public void IncreaseHealth(int health, Random random)
 			=> _hitPoints += random.Next(1, health);
 
 		public void Equip(string weaponName)
@@ -54,10 +54,10 @@ namespace Adventure_game_Expedition
 
 		public void Move(Direction direction, Stats stats)
 		{
-			base.location = Move(direction, game.Boundaries);
+			location = Move(direction, game.Boundaries);
 			if (!game.WeaponInRoom.PickedUp)
 			{
-				if (game.WeaponInRoom.Nearby(base.location, 5))
+				if (game.WeaponInRoom.Nearby(location, 5))
 				{
 					_inventory.Add(game.WeaponInRoom);
 					game.WeaponInRoom.PickUpWeapon();

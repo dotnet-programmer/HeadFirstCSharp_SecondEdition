@@ -89,6 +89,7 @@
     <Compile Include="Weapons\RedPotion.cs" />
     <Compile Include="Weapons\Sword.cs" />
     <Compile Include="Weapons\Weapon.cs" />
+    <Compile Include="Weapons\WeaponName.cs" />
     <EmbeddedResource Include="Forms\GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
     </EmbeddedResource>

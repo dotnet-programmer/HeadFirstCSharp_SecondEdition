@@ -19,7 +19,7 @@ namespace Adventure_game_Expedition
 			int randomInt = random.Next(3);
 			if (randomInt == 0 || randomInt == 1)
 			{
-				base.location = Move(FindPlayerDirection(game.PlayerLocation), game.Boundaries);
+				location = Move(FindPlayerDirection(game.PlayerLocation), game.Boundaries);
 			}
 
 			if (NearPlayer())

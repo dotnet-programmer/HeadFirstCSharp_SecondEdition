@@ -14,20 +14,10 @@ namespace Adventure_game_Expedition
 		}
 
 		/// <summary>
-		/// Start game
+		/// Start new game
 		/// </summary>
-		public void StartGame(string playerName)
-		{
-			Visible = false;
-			using (GameForm gameForm = new GameForm(_stats))
-			{
-				gameForm.PlayerName = playerName;
-				gameForm.ShowDialog();
-			}
-			Visible = true;
-		}
-
-		// New game
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void BtnNewGame_Click(object sender, EventArgs e)
 		{
 			bool isStartGame = false;
@@ -48,17 +38,39 @@ namespace Adventure_game_Expedition
 			}
 		}
 
-		// Exit game
-		private void BtnExit_Click(object sender, EventArgs e) 
-			=> Application.Exit();
-
-		// stats
+		/// <summary>
+		/// Show stats
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		private void BtnStats_Click(object sender, EventArgs e)
 		{
 			using (StatsForm statsForm = new StatsForm(_stats))
 			{
 				statsForm.ShowDialog();
 			}
+		}
+
+		/// <summary>
+		/// Exit game
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void BtnExit_Click(object sender, EventArgs e)
+			=> Application.Exit();
+
+		/// <summary>
+		/// Start new game
+		/// </summary>
+		/// <param name="playerName">Player name</param>
+		private void StartGame(string playerName)
+		{
+			Visible = false;
+			using (GameForm gameForm = new GameForm(playerName, _stats))
+			{
+				gameForm.ShowDialog();
+			}
+			Visible = true;
 		}
 	}
 }

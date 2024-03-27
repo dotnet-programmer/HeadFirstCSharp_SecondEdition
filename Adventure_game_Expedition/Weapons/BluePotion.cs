@@ -11,18 +11,16 @@ namespace Adventure_game_Expedition.Weapons
 		{
 		}
 
-		public bool Used 
+		public bool Used
 			=> _used;
 
-
-		public override string Name 
-			=> "Niebieska mikstura";
+		public override string Name
+			=> WeaponName.BluePotion;
 
 		public override void Attack(Direction direction, Random random, Stats stats)
 		{
 			game.IncreasePlayerHealth(5, random);
 			_used = true;
 		}
-
 	}
 }

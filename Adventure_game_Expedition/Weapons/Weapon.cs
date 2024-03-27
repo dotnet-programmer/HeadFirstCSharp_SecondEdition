@@ -5,20 +5,13 @@ namespace Adventure_game_Expedition
 {
 	internal abstract class Weapon : Mover
 	{
-		//protected Game game;
-
 		private bool _pickedUp;
-		//private Point location;
-		//public Point Location { get => location; }
 
-		//public Weapon(Game game, Point location)
 		public Weapon(Game game, Point location) : base(game, location)
 			=> _pickedUp = false;
 
-		public bool PickedUp 
+		public bool PickedUp
 			=> _pickedUp;
-		//this.game = game;
-		//this.location = location;
 
 		public abstract string Name { get; }
 

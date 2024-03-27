@@ -491,8 +491,8 @@
 			this.Name = "GameForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "Wyprawa";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+			this.Load += new System.EventHandler(this.GameForm_Load);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameForm_KeyDown);
 			((System.ComponentModel.ISupportInitialize)(this.PicturePlayer)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureSword)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PictureMace)).EndInit();

@@ -7,14 +7,15 @@ namespace Hive_simulator
 	internal class Bee
 	{
 		private const double HoneyConsumed = 0.5;
-		private const int MoveRate = 3;
 		private const double MinimumFlowerNectar = 1.5;
+		private const int MoveRate = 3;
 		private const int CareerSpan = 1000;
 
 		private readonly int _id;
-		private Flower _destinationFlower;
 		private readonly Hive _hive;
 		private readonly World _world;
+
+		private Flower _destinationFlower;
 		private Point _location;
 
 		[NonSerialized]
@@ -22,13 +23,14 @@ namespace Hive_simulator
 
 		public Bee(int id, Point location, Hive hive, World world)
 		{
+			_id = id;
+			_location = location;
 			_hive = hive;
 			_world = world;
-			_id = id;
-			Age = 0;
-			_location = location;
-			InsideHive = true;
 			_destinationFlower = null;
+			
+			Age = 0;
+			InsideHive = true;
 			NectarCollected = 0;
 			CurrentState = BeeState.Idle;
 		}

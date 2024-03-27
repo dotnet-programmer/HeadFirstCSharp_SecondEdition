@@ -9,10 +9,10 @@ namespace Adventure_game_Expedition.Weapons
 		{
 		}
 
-		public override string Name 
-			=> "Łuk";
+		public override string Name
+			=> WeaponName.Bow;
 
-		public override void Attack(Direction direction, Random random, Stats stats) 
+		public override void Attack(Direction direction, Random random, Stats stats)
 			=> DamageEnemy(direction, 50, 1, random, stats);
 	}
 }

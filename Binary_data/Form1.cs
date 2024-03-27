@@ -12,7 +12,7 @@ namespace Binary_data
 		private readonly float _floatValue = 491.695F;
 		private readonly char _charValue = 'E';
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void button1_Click(object sender, EventArgs e)
@@ -54,7 +54,6 @@ namespace Binary_data
 				{
 					Console.Write("{0} ", item);
 				}
-
 				Console.Write(" float: {0} char: {1} ", floatRead, charRead);
 			}
 			Console.WriteLine();

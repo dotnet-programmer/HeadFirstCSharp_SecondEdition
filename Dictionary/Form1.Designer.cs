@@ -71,7 +71,7 @@
 			this.nameLabel.Name = "nameLabel";
 			this.nameLabel.Size = new System.Drawing.Size(100, 20);
 			this.nameLabel.TabIndex = 4;
-			this.nameLabel.Text = "label3";
+			this.nameLabel.Text = "nameLabel";
 			this.nameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label4
@@ -90,7 +90,7 @@
 			this.yearLabel.Name = "yearLabel";
 			this.yearLabel.Size = new System.Drawing.Size(100, 20);
 			this.yearLabel.TabIndex = 6;
-			this.yearLabel.Text = "label5";
+			this.yearLabel.Text = "yearLabel";
 			this.yearLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label6

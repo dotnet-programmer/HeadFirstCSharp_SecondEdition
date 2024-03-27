@@ -7,7 +7,8 @@ namespace BeeControl_UserControl
 	{
 		private int _cell = 0;
 
-		public BeeControl() => InitializeComponent();
+		public BeeControl() 
+			=> InitializeComponent();
 
 		private void animationTimer_Tick(object sender, EventArgs e)
 		{

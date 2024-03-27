@@ -12,6 +12,7 @@ namespace BeeControl
 		public Form1()
 		{
 			InitializeComponent();
+			pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 			timer1.Start();
 		}
 
@@ -39,27 +40,21 @@ namespace BeeControl
 			{
 				case 1:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_1;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					break;
 				case 2:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_2;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					break;
 				case 3:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_3;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					break;
 				case 4:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_4;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					break;
 				case 5:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_3;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					break;
 				default:
 					pictureBox1.BackgroundImage = Properties.Resources.Bee_animation_2;
-					pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
 					_cell = 0;
 					break;
 			}
