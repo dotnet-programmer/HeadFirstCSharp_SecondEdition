@@ -5,10 +5,11 @@ namespace Racing
 {
 	public partial class Form1 : Form
 	{
-		private const int _maxDogs = 4;
-		private readonly Greyhound[] _greyhounds = new Greyhound[_maxDogs];
-		private const int _maxGuys = 3;
-		private readonly Guy[] _guys = new Guy[_maxGuys];
+		private const int MaxDogs = 4;
+		private const int MaxGuys = 3;
+
+		private readonly Greyhound[] _greyhounds = new Greyhound[MaxDogs];
+		private readonly Guy[] _guys = new Guy[MaxGuys];
 		private readonly Random _random = new Random();
 
 		public Form1()
@@ -62,19 +63,19 @@ namespace Racing
 			bool stop = false;
 			while (!stop)
 			{
-				for (int i = 0; i < _maxDogs; i++)
+				for (int i = 0; i < MaxDogs; i++)
 				{
 					System.Threading.Thread.Sleep(2);
 					if (_greyhounds[i].Run())
 					{
 						stop = true;
 						MessageBox.Show("Mamy zwycięzcę - chart numer " + (i + 1));
-						for (int j = 0; j < _maxGuys; j++)
+						for (int j = 0; j < MaxGuys; j++)
 						{
 							_guys[j].Collect(i);
 						}
 
-						for (int j = 0; j < _maxGuys; j++)
+						for (int j = 0; j < MaxGuys; j++)
 						{
 							_guys[j].UpdateLabels();
 						}
@@ -89,17 +90,17 @@ namespace Racing
 
 		private void BtnClear_Click(object sender, EventArgs e)
 		{
-			for (int i = 0; i < _maxDogs; i++)
+			for (int i = 0; i < MaxDogs; i++)
 			{
 				_greyhounds[i].TakeStartingPosition();
 			}
 
-			for (int j = 0; j < _maxGuys; j++)
+			for (int j = 0; j < MaxGuys; j++)
 			{
 				_guys[j].ClearBet();
 			}
 
-			for (int j = 0; j < _maxGuys; j++)
+			for (int j = 0; j < MaxGuys; j++)
 			{
 				_guys[j].UpdateLabels();
 			}
@@ -107,7 +108,7 @@ namespace Racing
 			SetButtons(true);
 		}
 
-		private void SetButtons(bool isEnabled) 
+		private void SetButtons(bool isEnabled)
 			=> BtnStart.Enabled = BtnGetBet.Enabled = RbGuy1.Enabled = RbGuy2.Enabled = RbGuy3.Enabled = NmCash.Enabled = NmDog.Enabled = isEnabled;
 	}
 }

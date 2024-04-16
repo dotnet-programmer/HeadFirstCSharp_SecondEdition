@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Adventure_game_Expedition.Weapons;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace Adventure_game_Expedition
 {
@@ -31,9 +29,7 @@ namespace Adventure_game_Expedition
 
 			AddWeaponsToList();
 			AddAttackButtonsToList();
-
-			_timer.Interval = 100;
-			_timer.Tick += Timer_Tick;
+			SetTimer();
 		}
 
 		#region GameForm events
@@ -133,12 +129,6 @@ namespace Adventure_game_Expedition
 
 		#endregion Move buttons
 
-		private void Timer_Tick(object sender, EventArgs e)
-		{
-			_game.MoveEnemies(_random);
-			UpdateCharacters();
-		}
-
 		#region Initialize button lists
 
 		private void AddWeaponsToList()
@@ -159,6 +149,22 @@ namespace Adventure_game_Expedition
 		}
 
 		#endregion Initialize button lists
+
+		#region Timer
+
+		private void SetTimer()
+		{
+			_timer.Interval = 100;
+			_timer.Tick += Timer_Tick;
+		}
+
+		private void Timer_Tick(object sender, EventArgs e)
+		{
+			_game.MoveEnemies(_random);
+			UpdateCharacters();
+		}
+
+		#endregion Timer
 
 		#region Game state handling
 

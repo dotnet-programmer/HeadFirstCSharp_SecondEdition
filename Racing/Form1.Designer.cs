@@ -35,29 +35,29 @@
 			this.PbDog3 = new System.Windows.Forms.PictureBox();
 			this.PbDog4 = new System.Windows.Forms.PictureBox();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
-			this.LbMinValue = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.RbGuy1 = new System.Windows.Forms.RadioButton();
-			this.RbGuy2 = new System.Windows.Forms.RadioButton();
-			this.RbGuy3 = new System.Windows.Forms.RadioButton();
-			this.LbGuy1 = new System.Windows.Forms.Label();
-			this.LbGuy2 = new System.Windows.Forms.Label();
-			this.LbGuy3 = new System.Windows.Forms.Label();
-			this.LbGuy = new System.Windows.Forms.Label();
-			this.BtnGetBet = new System.Windows.Forms.Button();
-			this.NmCash = new System.Windows.Forms.NumericUpDown();
-			this.label3 = new System.Windows.Forms.Label();
-			this.NmDog = new System.Windows.Forms.NumericUpDown();
-			this.BtnStart = new System.Windows.Forms.Button();
 			this.BtnClear = new System.Windows.Forms.Button();
+			this.BtnStart = new System.Windows.Forms.Button();
+			this.NmDog = new System.Windows.Forms.NumericUpDown();
+			this.label3 = new System.Windows.Forms.Label();
+			this.NmCash = new System.Windows.Forms.NumericUpDown();
+			this.BtnGetBet = new System.Windows.Forms.Button();
+			this.LbGuy = new System.Windows.Forms.Label();
+			this.LbGuy3 = new System.Windows.Forms.Label();
+			this.LbGuy2 = new System.Windows.Forms.Label();
+			this.LbGuy1 = new System.Windows.Forms.Label();
+			this.RbGuy3 = new System.Windows.Forms.RadioButton();
+			this.RbGuy2 = new System.Windows.Forms.RadioButton();
+			this.RbGuy1 = new System.Windows.Forms.RadioButton();
+			this.label2 = new System.Windows.Forms.Label();
+			this.LbMinValue = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.PbRacetrack)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog3)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog4)).BeginInit();
 			this.groupBox1.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.NmCash)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.NmDog)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.NmCash)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// PbRacetrack
@@ -138,136 +138,25 @@
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Dom bukmacherski";
 			// 
-			// LbMinValue
+			// BtnClear
 			// 
-			this.LbMinValue.AutoSize = true;
-			this.LbMinValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.LbMinValue.Location = new System.Drawing.Point(234, 16);
-			this.LbMinValue.Name = "LbMinValue";
-			this.LbMinValue.Size = new System.Drawing.Size(155, 20);
-			this.LbMinValue.TabIndex = 0;
-			this.LbMinValue.Text = "Minimalny zakład: ";
+			this.BtnClear.Location = new System.Drawing.Point(763, 164);
+			this.BtnClear.Name = "BtnClear";
+			this.BtnClear.Size = new System.Drawing.Size(75, 23);
+			this.BtnClear.TabIndex = 14;
+			this.BtnClear.Text = "Wyczyść";
+			this.BtnClear.UseVisualStyleBackColor = true;
+			this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
 			// 
-			// label2
+			// BtnStart
 			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.label2.Location = new System.Drawing.Point(451, 16);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(72, 20);
-			this.label2.TabIndex = 1;
-			this.label2.Text = "Zakłady";
-			// 
-			// RbGuy1
-			// 
-			this.RbGuy1.AutoSize = true;
-			this.RbGuy1.Location = new System.Drawing.Point(234, 50);
-			this.RbGuy1.Name = "RbGuy1";
-			this.RbGuy1.Size = new System.Drawing.Size(54, 17);
-			this.RbGuy1.TabIndex = 2;
-			this.RbGuy1.TabStop = true;
-			this.RbGuy1.Text = "Janek";
-			this.RbGuy1.UseVisualStyleBackColor = true;
-			// 
-			// RbGuy2
-			// 
-			this.RbGuy2.AutoSize = true;
-			this.RbGuy2.Location = new System.Drawing.Point(234, 81);
-			this.RbGuy2.Name = "RbGuy2";
-			this.RbGuy2.Size = new System.Drawing.Size(56, 17);
-			this.RbGuy2.TabIndex = 3;
-			this.RbGuy2.TabStop = true;
-			this.RbGuy2.Text = "Bartek";
-			this.RbGuy2.UseVisualStyleBackColor = true;
-			// 
-			// RbGuy3
-			// 
-			this.RbGuy3.AutoSize = true;
-			this.RbGuy3.Location = new System.Drawing.Point(234, 112);
-			this.RbGuy3.Name = "RbGuy3";
-			this.RbGuy3.Size = new System.Drawing.Size(47, 17);
-			this.RbGuy3.TabIndex = 4;
-			this.RbGuy3.TabStop = true;
-			this.RbGuy3.Text = "Arek";
-			this.RbGuy3.UseVisualStyleBackColor = true;
-			// 
-			// LbGuy1
-			// 
-			this.LbGuy1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.LbGuy1.Location = new System.Drawing.Point(452, 50);
-			this.LbGuy1.Name = "LbGuy1";
-			this.LbGuy1.Size = new System.Drawing.Size(386, 20);
-			this.LbGuy1.TabIndex = 5;
-			this.LbGuy1.Text = " Zakład Janka";
-			this.LbGuy1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// LbGuy2
-			// 
-			this.LbGuy2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.LbGuy2.Location = new System.Drawing.Point(452, 81);
-			this.LbGuy2.Name = "LbGuy2";
-			this.LbGuy2.Size = new System.Drawing.Size(386, 20);
-			this.LbGuy2.TabIndex = 6;
-			this.LbGuy2.Text = " Zakład Bartka";
-			this.LbGuy2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// LbGuy3
-			// 
-			this.LbGuy3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.LbGuy3.Location = new System.Drawing.Point(452, 112);
-			this.LbGuy3.Name = "LbGuy3";
-			this.LbGuy3.Size = new System.Drawing.Size(386, 20);
-			this.LbGuy3.TabIndex = 7;
-			this.LbGuy3.Text = " Zakład Arka";
-			this.LbGuy3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			// 
-			// LbGuy
-			// 
-			this.LbGuy.AutoSize = true;
-			this.LbGuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.LbGuy.Location = new System.Drawing.Point(263, 169);
-			this.LbGuy.Name = "LbGuy";
-			this.LbGuy.Size = new System.Drawing.Size(40, 13);
-			this.LbGuy.TabIndex = 8;
-			this.LbGuy.Text = "Gracz";
-			// 
-			// BtnGetBet
-			// 
-			this.BtnGetBet.Location = new System.Drawing.Point(316, 165);
-			this.BtnGetBet.Name = "BtnGetBet";
-			this.BtnGetBet.Size = new System.Drawing.Size(73, 23);
-			this.BtnGetBet.TabIndex = 9;
-			this.BtnGetBet.Text = "Stawia";
-			this.BtnGetBet.UseVisualStyleBackColor = true;
-			this.BtnGetBet.Click += new System.EventHandler(this.BtnGetBet_Click);
-			// 
-			// NmCash
-			// 
-			this.NmCash.Location = new System.Drawing.Point(404, 167);
-			this.NmCash.Minimum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-			this.NmCash.Name = "NmCash";
-			this.NmCash.Size = new System.Drawing.Size(71, 20);
-			this.NmCash.TabIndex = 10;
-			this.NmCash.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.NmCash.Value = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-			// 
-			// label3
-			// 
-			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-			this.label3.Location = new System.Drawing.Point(481, 169);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(114, 13);
-			this.label3.TabIndex = 11;
-			this.label3.Text = "zł na charta numer";
+			this.BtnStart.Location = new System.Drawing.Point(673, 164);
+			this.BtnStart.Name = "BtnStart";
+			this.BtnStart.Size = new System.Drawing.Size(75, 23);
+			this.BtnStart.TabIndex = 13;
+			this.BtnStart.Text = "Start!";
+			this.BtnStart.UseVisualStyleBackColor = true;
+			this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
 			// 
 			// NmDog
 			// 
@@ -292,25 +181,136 @@
             0,
             0});
 			// 
-			// BtnStart
+			// label3
 			// 
-			this.BtnStart.Location = new System.Drawing.Point(673, 164);
-			this.BtnStart.Name = "BtnStart";
-			this.BtnStart.Size = new System.Drawing.Size(75, 23);
-			this.BtnStart.TabIndex = 13;
-			this.BtnStart.Text = "Start!";
-			this.BtnStart.UseVisualStyleBackColor = true;
-			this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.label3.Location = new System.Drawing.Point(481, 169);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(114, 13);
+			this.label3.TabIndex = 11;
+			this.label3.Text = "zł na charta numer";
 			// 
-			// BtnClear
+			// NmCash
 			// 
-			this.BtnClear.Location = new System.Drawing.Point(763, 164);
-			this.BtnClear.Name = "BtnClear";
-			this.BtnClear.Size = new System.Drawing.Size(75, 23);
-			this.BtnClear.TabIndex = 14;
-			this.BtnClear.Text = "Wyczyść";
-			this.BtnClear.UseVisualStyleBackColor = true;
-			this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
+			this.NmCash.Location = new System.Drawing.Point(404, 167);
+			this.NmCash.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+			this.NmCash.Name = "NmCash";
+			this.NmCash.Size = new System.Drawing.Size(71, 20);
+			this.NmCash.TabIndex = 10;
+			this.NmCash.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+			this.NmCash.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+			// 
+			// BtnGetBet
+			// 
+			this.BtnGetBet.Location = new System.Drawing.Point(316, 165);
+			this.BtnGetBet.Name = "BtnGetBet";
+			this.BtnGetBet.Size = new System.Drawing.Size(73, 23);
+			this.BtnGetBet.TabIndex = 9;
+			this.BtnGetBet.Text = "Stawia";
+			this.BtnGetBet.UseVisualStyleBackColor = true;
+			this.BtnGetBet.Click += new System.EventHandler(this.BtnGetBet_Click);
+			// 
+			// LbGuy
+			// 
+			this.LbGuy.AutoSize = true;
+			this.LbGuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.LbGuy.Location = new System.Drawing.Point(263, 169);
+			this.LbGuy.Name = "LbGuy";
+			this.LbGuy.Size = new System.Drawing.Size(40, 13);
+			this.LbGuy.TabIndex = 8;
+			this.LbGuy.Text = "Gracz";
+			// 
+			// LbGuy3
+			// 
+			this.LbGuy3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.LbGuy3.Location = new System.Drawing.Point(452, 112);
+			this.LbGuy3.Name = "LbGuy3";
+			this.LbGuy3.Size = new System.Drawing.Size(386, 20);
+			this.LbGuy3.TabIndex = 7;
+			this.LbGuy3.Text = " Zakład Arka";
+			this.LbGuy3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// LbGuy2
+			// 
+			this.LbGuy2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.LbGuy2.Location = new System.Drawing.Point(452, 81);
+			this.LbGuy2.Name = "LbGuy2";
+			this.LbGuy2.Size = new System.Drawing.Size(386, 20);
+			this.LbGuy2.TabIndex = 6;
+			this.LbGuy2.Text = " Zakład Bartka";
+			this.LbGuy2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// LbGuy1
+			// 
+			this.LbGuy1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.LbGuy1.Location = new System.Drawing.Point(452, 50);
+			this.LbGuy1.Name = "LbGuy1";
+			this.LbGuy1.Size = new System.Drawing.Size(386, 20);
+			this.LbGuy1.TabIndex = 5;
+			this.LbGuy1.Text = " Zakład Janka";
+			this.LbGuy1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			// 
+			// RbGuy3
+			// 
+			this.RbGuy3.AutoSize = true;
+			this.RbGuy3.Location = new System.Drawing.Point(234, 112);
+			this.RbGuy3.Name = "RbGuy3";
+			this.RbGuy3.Size = new System.Drawing.Size(47, 17);
+			this.RbGuy3.TabIndex = 4;
+			this.RbGuy3.TabStop = true;
+			this.RbGuy3.Text = "Arek";
+			this.RbGuy3.UseVisualStyleBackColor = true;
+			// 
+			// RbGuy2
+			// 
+			this.RbGuy2.AutoSize = true;
+			this.RbGuy2.Location = new System.Drawing.Point(234, 81);
+			this.RbGuy2.Name = "RbGuy2";
+			this.RbGuy2.Size = new System.Drawing.Size(56, 17);
+			this.RbGuy2.TabIndex = 3;
+			this.RbGuy2.TabStop = true;
+			this.RbGuy2.Text = "Bartek";
+			this.RbGuy2.UseVisualStyleBackColor = true;
+			// 
+			// RbGuy1
+			// 
+			this.RbGuy1.AutoSize = true;
+			this.RbGuy1.Location = new System.Drawing.Point(234, 50);
+			this.RbGuy1.Name = "RbGuy1";
+			this.RbGuy1.Size = new System.Drawing.Size(54, 17);
+			this.RbGuy1.TabIndex = 2;
+			this.RbGuy1.TabStop = true;
+			this.RbGuy1.Text = "Janek";
+			this.RbGuy1.UseVisualStyleBackColor = true;
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.label2.Location = new System.Drawing.Point(451, 16);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(72, 20);
+			this.label2.TabIndex = 1;
+			this.label2.Text = "Zakłady";
+			// 
+			// LbMinValue
+			// 
+			this.LbMinValue.AutoSize = true;
+			this.LbMinValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+			this.LbMinValue.Location = new System.Drawing.Point(234, 16);
+			this.LbMinValue.Name = "LbMinValue";
+			this.LbMinValue.Size = new System.Drawing.Size(155, 20);
+			this.LbMinValue.TabIndex = 0;
+			this.LbMinValue.Text = "Minimalny zakład: ";
 			// 
 			// Form1
 			// 
@@ -325,7 +325,7 @@
 			this.Controls.Add(this.PbRacetrack);
 			this.Name = "Form1";
 			this.Padding = new System.Windows.Forms.Padding(5);
-			this.Text = "Form1";
+			this.Text = "Racing";
 			((System.ComponentModel.ISupportInitialize)(this.PbRacetrack)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.PbDog2)).EndInit();
@@ -333,8 +333,8 @@
 			((System.ComponentModel.ISupportInitialize)(this.PbDog4)).EndInit();
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.NmCash)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.NmDog)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.NmCash)).EndInit();
 			this.ResumeLayout(false);
 
 		}
