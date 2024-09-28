@@ -8,10 +8,10 @@ namespace Sorting
 
 		public KindOfDuck Kind { get; set; }
 
-		public string DuckInfo 
+		public string DuckInfo
 			=> Kind.ToString() + " - " + Size.ToString();
 
-		public int CompareTo(DuckWithIComparable other) 
+		public int CompareTo(DuckWithIComparable other)
 			=> Size > other.Size ? 1 : Size < other.Size ? -1 : 0;
 	}
 }

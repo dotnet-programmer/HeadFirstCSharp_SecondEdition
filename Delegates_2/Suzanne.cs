@@ -2,10 +2,10 @@
 {
 	internal class Suzanne
 	{
-		public GetSecretIngredient MySecretIngredientMethod 
+		public GetSecretIngredient MySecretIngredientMethod
 			=> new GetSecretIngredient(SuzannesSecretIngredient);
 
-		private string SuzannesSecretIngredient(int amount) 
+		private string SuzannesSecretIngredient(int amount)
 			=> amount.ToString() + " dekagramów goździków";
 	}
 }

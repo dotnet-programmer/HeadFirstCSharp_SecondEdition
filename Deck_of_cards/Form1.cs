@@ -8,7 +8,7 @@ namespace Deck_of_cards
 	{
 		private readonly Random _random = new Random();
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void button1_Click(object sender, EventArgs e)

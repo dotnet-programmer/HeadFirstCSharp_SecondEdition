@@ -5,7 +5,7 @@ namespace Travel_cost_calculator
 {
 	public partial class Form1 : Form
 	{
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void BtnCalculate_Click(object sender, EventArgs e)

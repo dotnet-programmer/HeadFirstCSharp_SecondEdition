@@ -20,13 +20,13 @@ namespace Game_go_fishing
 			}
 		}
 
-		public Deck(IEnumerable<Card> initialCards) 
+		public Deck(IEnumerable<Card> initialCards)
 			=> _cards = new List<Card>(initialCards);
 
-		public int Count 
+		public int Count
 			=> _cards.Count;
 
-		public void Add(Card cartToAdd) 
+		public void Add(Card cartToAdd)
 			=> _cards.Add(cartToAdd);
 
 		public Card Deal(int index)
@@ -59,13 +59,13 @@ namespace Game_go_fishing
 			return names;
 		}
 
-		public void Sort() 
+		public void Sort()
 			=> _cards.Sort(new CardComparer_byValue());
 
-		public Card Peek(int cardNumber) 
+		public Card Peek(int cardNumber)
 			=> _cards[cardNumber];
 
-		public Card Deal() 
+		public Card Deal()
 			=> Deal(0);
 
 		public bool ContainsValue(Values value)
@@ -109,7 +109,7 @@ namespace Game_go_fishing
 			return NumberOfCards == 4;
 		}
 
-		public void SortByValue() 
+		public void SortByValue()
 			=> _cards.Sort(new CardComparer_byValue());
 	}
 }

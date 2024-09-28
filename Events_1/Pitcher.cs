@@ -4,7 +4,7 @@ namespace Events_1
 {
 	internal class Pitcher
 	{
-		public Pitcher(Ball ball) 
+		public Pitcher(Ball ball)
 			=> ball.BallInPlay += Ball_BallInPlay;
 
 		private void Ball_BallInPlay(object sender, EventArgs e)
@@ -23,10 +23,10 @@ namespace Events_1
 			}
 		}
 
-		private void CatchBall() 
+		private void CatchBall()
 			=> Console.WriteLine("Miotacz: Złapałem piłkę.");
 
-		private void CoverFirstBase() 
+		private void CoverFirstBase()
 			=> Console.WriteLine("Miotacz: Pokryłem pierwszą baze.");
 	}
 }

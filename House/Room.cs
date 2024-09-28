@@ -7,7 +7,7 @@
 
 		public string Decoration { get; }
 
-		public override string Description 
+		public override string Description
 			=> base.Description + " Widzisz tutaj " + Decoration;
 	}
 }

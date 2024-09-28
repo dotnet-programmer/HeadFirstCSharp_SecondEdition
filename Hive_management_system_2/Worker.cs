@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Hive_management_system_2
+﻿namespace Hive_management_system_2
 {
 	internal class Worker : Bee
 	{

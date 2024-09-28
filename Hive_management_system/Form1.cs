@@ -31,7 +31,7 @@ namespace Hive_management_system
 			}
 		}
 
-		private void NextShift_Click(object sender, EventArgs e) 
+		private void NextShift_Click(object sender, EventArgs e)
 			=> ReportTxt.Text = _queen.WorkTheNextShift();
 	}
 }

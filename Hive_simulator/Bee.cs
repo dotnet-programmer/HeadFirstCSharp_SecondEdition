@@ -28,7 +28,7 @@ namespace Hive_simulator
 			_hive = hive;
 			_world = world;
 			_destinationFlower = null;
-			
+
 			Age = 0;
 			InsideHive = true;
 			NectarCollected = 0;

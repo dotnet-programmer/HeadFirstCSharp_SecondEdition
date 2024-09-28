@@ -6,7 +6,7 @@ namespace If_else_statements
 {
 	public partial class Form1 : Form
 	{
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		/// <summary>

@@ -2,7 +2,7 @@
 {
 	internal class Jewels
 	{
-		public string Sparkle() 
+		public string Sparkle()
 			=> "Lśnimy i błyszczymy!";
 	}
 }

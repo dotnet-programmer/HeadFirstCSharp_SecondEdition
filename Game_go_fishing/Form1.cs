@@ -8,7 +8,7 @@ namespace Game_go_fishing
 	{
 		private Game _game;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void buttonStart_Click(object sender, EventArgs e)

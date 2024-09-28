@@ -9,7 +9,7 @@ namespace Deck_of_cards_serialization_to_file
 	{
 		private readonly Random _random = new Random();
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private Deck RandomDeck(int Number)

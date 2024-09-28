@@ -21,13 +21,13 @@ namespace Deck_of_cards_serialization_to_file
 			}
 		}
 
-		public Deck(IEnumerable<Card> initialCards) 
+		public Deck(IEnumerable<Card> initialCards)
 			=> _cards = new List<Card>(initialCards);
 
-		public int Count 
+		public int Count
 			=> _cards.Count;
 
-		public void Add(Card cartToAdd) 
+		public void Add(Card cartToAdd)
 			=> _cards.Add(cartToAdd);
 
 		public Card Deal(int index)
@@ -60,7 +60,7 @@ namespace Deck_of_cards_serialization_to_file
 			return names;
 		}
 
-		public void Sort() 
+		public void Sort()
 			=> _cards.Sort(new CardComparer_bySuit());
 	}
 }

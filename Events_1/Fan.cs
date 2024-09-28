@@ -4,7 +4,7 @@ namespace Events_1
 {
 	internal class Fan
 	{
-		public Fan(Ball ball) 
+		public Fan(Ball ball)
 			=> ball.BallInPlay += Ball_BallInPlay;
 
 		private void Ball_BallInPlay(object sender, EventArgs e)
@@ -23,10 +23,10 @@ namespace Events_1
 			}
 		}
 
-		private void CatchBall() 
+		private void CatchBall()
 			=> Console.WriteLine("Fan: Home run! Ide po piłkę!");
 
-		private void Sing() 
+		private void Sing()
 			=> Console.WriteLine("Fan: Jeee! Do boju!");
 	}
 }

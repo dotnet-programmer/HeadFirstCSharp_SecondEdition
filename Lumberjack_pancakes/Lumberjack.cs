@@ -13,7 +13,7 @@ namespace Lumberjack_pancakes
 			_meal = new Stack<Flapjack>();
 		}
 
-		public int FlapjackCount 
+		public int FlapjackCount
 			=> _meal.Count;
 
 		public void TakeFlapjacks(Flapjack food, int howMany)
@@ -41,7 +41,7 @@ namespace Lumberjack_pancakes
 	}
 
 	public enum Flapjack
-	{ 
-		Chrupkiego, Wilgotnego, Rumianego, Bananowego 
+	{
+		Chrupkiego, Wilgotnego, Rumianego, Bananowego
 	}
 }

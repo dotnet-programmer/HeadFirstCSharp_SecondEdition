@@ -5,13 +5,13 @@
 		public string Name;
 		public int Height;
 
-		public void TalkAboutYourself() 
+		public void TalkAboutYourself()
 			=> System.Windows.Forms.MessageBox.Show("Nazywam się " + Name + " i mam " + Height + " centymetrów wzrostu.");
 
-		string IClown.FunnyThingIHave 
+		string IClown.FunnyThingIHave
 			=> "Duże buty";
 
-		void IClown.Honk() 
+		void IClown.Honk()
 			=> System.Windows.Forms.MessageBox.Show("Honk!");
 	}
 }

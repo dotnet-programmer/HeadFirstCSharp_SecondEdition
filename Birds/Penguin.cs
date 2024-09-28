@@ -4,10 +4,10 @@ namespace Birds
 {
 	internal class Penguin : Bird
 	{
-		public override void Fly() 
+		public override void Fly()
 			=> Console.WriteLine("Pingwiny nie latają!");
 
-		public override string ToString() 
+		public override string ToString()
 			=> "Pingwin " + base.Name;
 	}
 }

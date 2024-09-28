@@ -12,7 +12,7 @@ namespace Events_1
 			BallInPlay?.Invoke(this, e);
 		}
 
-		public Bat GetNewBat() 
+		public Bat GetNewBat()
 			=> new Bat(new BatCallback(OnBallInPlay));
 	}
 }

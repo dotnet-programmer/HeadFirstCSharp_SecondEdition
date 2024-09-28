@@ -8,10 +8,10 @@
 
 		private decimal _costOfBeveragesPerPerson;
 
-		public DinnerParty(int numberOfPeople, bool fancyDecorations, bool healthyOption) : base(numberOfPeople, fancyDecorations) 
+		public DinnerParty(int numberOfPeople, bool fancyDecorations, bool healthyOption) : base(numberOfPeople, fancyDecorations)
 			=> SetHealthyOption(healthyOption);
 
-		public void SetHealthyOption(bool healthyOption) 
+		public void SetHealthyOption(bool healthyOption)
 			=> _costOfBeveragesPerPerson = healthyOption ? HealthyOptionCost : AlcoholOptionCost;
 
 		public decimal CalculateCost(bool healthyOption)

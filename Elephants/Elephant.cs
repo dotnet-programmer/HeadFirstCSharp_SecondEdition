@@ -8,13 +8,13 @@
 		/// <summary>
 		/// Show summary about elephant
 		/// </summary>
-		public void WhoAmI() 
+		public void WhoAmI()
 			=> System.Windows.Forms.MessageBox.Show("Moje uszy mają " + EarSize + " centymetrów szerokości", Name + " mówi...");
 
-		public void TellMe(string message, Elephant whoSaidIt) 
+		public void TellMe(string message, Elephant whoSaidIt)
 			=> System.Windows.Forms.MessageBox.Show(whoSaidIt.Name + " mówi: " + message);
 
-		public void SpeakTo(Elephant talkTo, string message) 
+		public void SpeakTo(Elephant talkTo, string message)
 			=> talkTo.TellMe(message, this);
 	}
 }

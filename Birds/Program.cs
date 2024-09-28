@@ -11,8 +11,8 @@ namespace Birds
 			Duck duck = new Duck();
 
 			bird.Fly();
-            Console.WriteLine($"name = {bird.Name}");
-            Console.WriteLine(bird);
+			Console.WriteLine($"name = {bird.Name}");
+			Console.WriteLine(bird);
 			Console.WriteLine();
 
 			penguin.Fly();

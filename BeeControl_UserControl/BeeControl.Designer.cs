@@ -29,13 +29,13 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			this.animationTimer = new System.Windows.Forms.Timer(this.components);
+			this.AnimationTimer = new System.Windows.Forms.Timer(this.components);
 			this.SuspendLayout();
 			// 
-			// animationTimer
+			// AnimationTimer
 			// 
-			this.animationTimer.Enabled = true;
-			this.animationTimer.Tick += new System.EventHandler(this.animationTimer_Tick);
+			this.AnimationTimer.Enabled = true;
+			this.AnimationTimer.Tick += new System.EventHandler(this.AnimationTimer_Tick);
 			// 
 			// BeeControl
 			// 
@@ -50,6 +50,6 @@
 
 		#endregion
 
-		private System.Windows.Forms.Timer animationTimer;
+		private System.Windows.Forms.Timer AnimationTimer;
 	}
 }

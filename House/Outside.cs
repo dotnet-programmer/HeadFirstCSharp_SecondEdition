@@ -2,7 +2,7 @@
 {
 	internal class Outside : Location
 	{
-		public Outside(string name, bool hot) : base(name) 
+		public Outside(string name, bool hot) : base(name)
 			=> Hot = hot;
 
 		public bool Hot { get; }

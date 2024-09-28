@@ -4,10 +4,10 @@
 	{
 		private readonly BatCallback _hitBallCallback;
 
-		public Bat(BatCallback callbackDelegate) 
+		public Bat(BatCallback callbackDelegate)
 			=> _hitBallCallback = new BatCallback(callbackDelegate);
 
-		public void HitTheBall(BallEventArgs e) 
+		public void HitTheBall(BallEventArgs e)
 			=> _hitBallCallback?.Invoke(e);
 	}
 }

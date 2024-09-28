@@ -27,7 +27,7 @@ namespace Hit_mole
 			_hidden = true;
 		}
 
-		public bool Hidden 
+		public bool Hidden
 			=> _hidden;
 
 		public void Show()

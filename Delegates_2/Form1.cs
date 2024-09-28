@@ -9,7 +9,7 @@ namespace Delegates_2
 		private readonly Suzanne _suzanne = new Suzanne();
 		private readonly Amy _amy = new Amy();
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void button1_Click(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace Delegates_2
 			}
 		}
 
-		private void button2_Click(object sender, EventArgs e) 
+		private void button2_Click(object sender, EventArgs e)
 			=> _ingredientMethod = new GetSecretIngredient(_suzanne.MySecretIngredientMethod);
 
 		private void button3_Click(object sender, EventArgs e)

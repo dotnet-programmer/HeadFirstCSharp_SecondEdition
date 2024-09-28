@@ -7,10 +7,10 @@ namespace BeeControl_UserControl
 	{
 		private int _cell = 0;
 
-		public BeeControl() 
+		public BeeControl()
 			=> InitializeComponent();
 
-		private void animationTimer_Tick(object sender, EventArgs e)
+		private void AnimationTimer_Tick(object sender, EventArgs e)
 		{
 			_cell++;
 			switch (_cell)

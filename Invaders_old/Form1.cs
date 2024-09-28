@@ -11,7 +11,7 @@ namespace Invaders
 		private readonly bool _gameOver;
 		private readonly Game _game;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void Form1_KeyDown(object sender, KeyEventArgs e)

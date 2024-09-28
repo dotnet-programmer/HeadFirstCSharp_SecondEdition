@@ -8,13 +8,13 @@ namespace Graphics_3
 	{
 		private readonly Bitmap _photo = new Bitmap("");
 
-		public Zoomer() 
+		public Zoomer()
 			=> InitializeComponent();
 
-		private void trackBar1_Scroll(object sender, EventArgs e) 
+		private void trackBar1_Scroll(object sender, EventArgs e)
 			=> Invalidate();
 
-		private void trackBar2_Scroll(object sender, EventArgs e) 
+		private void trackBar2_Scroll(object sender, EventArgs e)
 			=> Invalidate();
 
 		private void Zoomer_Paint(object sender, PaintEventArgs e)

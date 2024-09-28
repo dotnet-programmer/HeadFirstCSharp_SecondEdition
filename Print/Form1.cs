@@ -9,10 +9,10 @@ namespace Print
 	{
 		private bool _firstPage = true;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
-		public void DrawBee(Graphics g, Rectangle r) 
+		public void DrawBee(Graphics g, Rectangle r)
 			=> g.DrawImage(Properties.Resources.Bee_animation_1, r);
 
 		private void button1_Click(object sender, EventArgs e)
@@ -25,7 +25,6 @@ namespace Print
 			};
 			previewDialog.ShowDialog(this);
 		}
-
 
 		private void Document_PrintPage(object sender, PrintPageEventArgs e)
 		{

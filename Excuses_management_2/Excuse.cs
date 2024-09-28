@@ -7,10 +7,10 @@ namespace Excuses_management_2
 	[Serializable]
 	internal class Excuse
 	{
-		public Excuse() 
+		public Excuse()
 			=> ExcusePath = "";
 
-		public Excuse(string excusePath) 
+		public Excuse(string excusePath)
 			=> OpenFile(excusePath);
 
 		public Excuse(Random random, string folder)

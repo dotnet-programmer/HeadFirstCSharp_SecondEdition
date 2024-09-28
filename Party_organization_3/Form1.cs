@@ -22,13 +22,13 @@ namespace Party_organization_3
 		private const int smallCakeMaxLetters = 16;
 		private const int largeCakeMaxLetters = 40;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
-		private void NormalPartyValueChanged(object sender, EventArgs e) 
+		private void NormalPartyValueChanged(object sender, EventArgs e)
 			=> LbTotalCost.Text = CalculateCost(true, (int)NmNumberOfPeople.Value, ChDecoration.Checked, ChHealthyOption.Checked).ToString();
 
-		private void BirthdayPartyValueChanged(object sender, EventArgs e) 
+		private void BirthdayPartyValueChanged(object sender, EventArgs e)
 			=> LbTotalCostBth.Text = CalculateCost(false, (int)NmNumberOfPeopleBth.Value, ChDecorationBth.Checked).ToString();
 
 		private decimal CalculateCost(bool isNormal, int numberOfPeople, bool isDecoration, bool isHealthy = false)

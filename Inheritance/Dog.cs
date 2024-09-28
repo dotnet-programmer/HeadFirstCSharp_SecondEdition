@@ -2,8 +2,9 @@
 {
 	internal class Dog : Animal
 	{
-		private readonly int rozmiar;
+		private readonly int _size = 1;
 
-		//private void setRozmiar() => rozmiar = get
+		public int GetSize()
+			=> _size;
 	}
 }

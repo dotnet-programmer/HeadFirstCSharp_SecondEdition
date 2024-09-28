@@ -13,7 +13,7 @@
 
 		public int BagsOfFeed { get; private set; }
 
-		public int FeedMultiplier 
+		public int FeedMultiplier
 			=> _feedMultiplier;
 
 		public int NumberOfCows

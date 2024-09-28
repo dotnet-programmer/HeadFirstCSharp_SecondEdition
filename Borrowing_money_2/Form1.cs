@@ -102,7 +102,7 @@ namespace Borrowing_money_2
 				formatter.Serialize(output, _joe);
 			}
 		}
-		
+
 		/// <summary>
 		/// Load Joe's Data from file
 		/// </summary>

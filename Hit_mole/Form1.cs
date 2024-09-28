@@ -71,19 +71,19 @@ namespace Hit_mole
 			timer1.Start();
 		}
 
-		private void button1_Click(object sender, EventArgs e) 
+		private void button1_Click(object sender, EventArgs e)
 			=> _mole.Smacked(0);
 
-		private void button2_Click(object sender, EventArgs e) 
+		private void button2_Click(object sender, EventArgs e)
 			=> _mole.Smacked(1);
 
-		private void button3_Click(object sender, EventArgs e) 
+		private void button3_Click(object sender, EventArgs e)
 			=> _mole.Smacked(2);
 
-		private void button4_Click(object sender, EventArgs e) 
+		private void button4_Click(object sender, EventArgs e)
 			=> _mole.Smacked(3);
 
-		private void button5_Click(object sender, EventArgs e) 
+		private void button5_Click(object sender, EventArgs e)
 			=> _mole.Smacked(4);
 	}
 }

@@ -2,7 +2,7 @@
 {
 	internal class RoomWithDoor : RoomWithHidingPlace, IHasExteriorDoor
 	{
-		public RoomWithDoor(string name, string decoration, string hidingPlaceName, string doorDescription) : base(name, decoration, hidingPlaceName) 
+		public RoomWithDoor(string name, string decoration, string hidingPlaceName, string doorDescription) : base(name, decoration, hidingPlaceName)
 			=> DoorDescription = doorDescription;
 
 		public string DoorDescription { get; }

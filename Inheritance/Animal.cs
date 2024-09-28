@@ -2,11 +2,13 @@
 {
 	internal class Animal
 	{
-		public int wiek;
-		private readonly int glod;
+		public int age;
+		private readonly int _hunger = 13;
 
-		public int getWiek() => wiek;
+		public int GetAge()
+			=> age;
 
-		private int getGlod() => glod;
+		public int GetHunger()
+			=> _hunger;
 	}
 }

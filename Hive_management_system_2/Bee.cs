@@ -4,10 +4,10 @@
 	{
 		private readonly int _beeWeight;
 
-		public Bee(int beeWeight) 
+		public Bee(int beeWeight)
 			=> _beeWeight = beeWeight;
 
-		public virtual int ShiftLefts 
+		public virtual int ShiftLefts
 			=> 0;
 
 		public virtual double GetHoneyConsumption()

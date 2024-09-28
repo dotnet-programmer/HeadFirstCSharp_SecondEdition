@@ -4,10 +4,10 @@
 	{
 		private readonly int _numberOfScaryThings;
 
-		public ScaryScary(string funnyThingIHave, int numberOfScaryThings) : base(funnyThingIHave) 
+		public ScaryScary(string funnyThingIHave, int numberOfScaryThings) : base(funnyThingIHave)
 			=> _numberOfScaryThings = numberOfScaryThings;
 
-		public string ScaryThingIHave 
+		public string ScaryThingIHave
 			=> "Mam " + _numberOfScaryThings + " pająków";
 
 		public void ScareLittleChildren()

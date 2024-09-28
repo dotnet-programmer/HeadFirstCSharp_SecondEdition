@@ -6,10 +6,10 @@
 
 		public KindOfDuck Kind { get; set; }
 
-		public string DuckInfo 
+		public string DuckInfo
 			=> Kind.ToString() + " - " + Size.ToString();
 
-		public override string ToString() 
+		public override string ToString()
 			=> Size + "-centymetrowa kaczka " + Kind.ToString();
 	}
 }

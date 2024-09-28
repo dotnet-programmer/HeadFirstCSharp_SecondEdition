@@ -36,7 +36,7 @@ namespace House_game
 			}
 		}
 
-		public bool Check(Location location) 
+		public bool Check(Location location)
 			=> _myLocation == location;
 	}
 }

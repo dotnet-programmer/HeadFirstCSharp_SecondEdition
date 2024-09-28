@@ -6,7 +6,7 @@
 
 		private int _numberOfPeople;
 		private bool _fancyDecorations;
-		
+
 		public decimal CostOfBeveragesPerPerson;
 		public decimal CostOfDecorations = 0;
 
@@ -28,7 +28,7 @@
 			}
 		}
 
-		public void SetHealthyOption(bool healthyOption) 
+		public void SetHealthyOption(bool healthyOption)
 			=> CostOfBeveragesPerPerson = healthyOption ? 5.00M : 20.00M;
 
 		public void CalculateCostOfDecorations(bool fancy)

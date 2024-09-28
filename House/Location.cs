@@ -4,7 +4,7 @@
 	{
 		public Location[] Exits;
 
-		public Location(string name) 
+		public Location(string name)
 			=> Name = name;
 
 		public string Name { get; }

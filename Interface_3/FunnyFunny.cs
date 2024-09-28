@@ -4,13 +4,13 @@
 	{
 		private readonly string _funnyThingIHave;
 
-		public FunnyFunny(string funnyThingIHave) 
+		public FunnyFunny(string funnyThingIHave)
 			=> _funnyThingIHave = funnyThingIHave;
 
-		public string FunnyThingIHave 
+		public string FunnyThingIHave
 			=> "Kwa, kwa! Mam " + _funnyThingIHave;
 
-		public void Honk() 
+		public void Honk()
 			=> System.Windows.Forms.MessageBox.Show(FunnyThingIHave);
 	}
 }

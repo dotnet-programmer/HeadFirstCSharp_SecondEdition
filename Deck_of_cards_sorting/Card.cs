@@ -11,11 +11,10 @@
 			this.Value = Value;
 		}
 
-		public string Name 
+		public string Name
 			=> Value + " of " + Suit;
 
-
-		public override string ToString() 
+		public override string ToString()
 			=> Name;
 	}
 }

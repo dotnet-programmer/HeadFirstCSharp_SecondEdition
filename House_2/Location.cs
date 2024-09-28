@@ -6,7 +6,7 @@ namespace House_2
 	{
 		private readonly List<Door> _doors = new List<Door>();
 
-		public Location(string name) 
+		public Location(string name)
 			=> Name = name;
 
 		public Door Door

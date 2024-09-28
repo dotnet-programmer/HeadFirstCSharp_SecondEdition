@@ -8,7 +8,7 @@ namespace Graphics_2
 	{
 		private bool _isClicked = false;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void Form1_Click(object sender, EventArgs e)
@@ -85,7 +85,7 @@ namespace Graphics_2
 			}
 		}
 
-		private void Form1_Shown(object sender, EventArgs e) 
+		private void Form1_Shown(object sender, EventArgs e)
 			=> ShownFill();
 	}
 }

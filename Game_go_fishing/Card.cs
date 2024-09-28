@@ -14,7 +14,7 @@
 		private static readonly string[] _names2AndMore = new string[]
 			{ "", "asy", "dwójki", "trójki", "czwórki", "piątki", "szóstki", "siódemki", "ósemki", "dziewiątki", "dziesiątki", "walety", "damy", "króle" };
 
-		private static readonly string[] _suits = new string[] 
+		private static readonly string[] _suits = new string[]
 			{ "pik", "trefl", "karo", "kier" };
 
 		private static readonly string[] _names = new string[]
@@ -26,14 +26,14 @@
 			this.Value = Value;
 		}
 
-		public override string ToString() 
+		public override string ToString()
 			=> Name;
 
-		public static string Plural(Values value, int count) 
+		public static string Plural(Values value, int count)
 			=> count == 0 ? _names0[(int)value] : count == 1 ? _names1[(int)value] : _names2AndMore[(int)value];
 
 		//public string Name { get => Value + " of " + Suit; }
-		public string Name 
+		public string Name
 			=> _names[(int)Value] + " " + _suits[(int)Suit];
 	}
 

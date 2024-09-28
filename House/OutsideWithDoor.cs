@@ -11,7 +11,7 @@
 
 		public Location DoorLocation { get => _doorLocation; set => _doorLocation = value; }
 
-		public override string Description 
+		public override string Description
 			=> base.Description + " Widzisz teraz " + DoorDescription + ".";
 	}
 }

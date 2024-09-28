@@ -8,7 +8,7 @@ namespace Dialogs_open_save
 	{
 		private string _name;
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void BtnOpen_Click(object sender, EventArgs e)

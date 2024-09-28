@@ -8,7 +8,7 @@ namespace Lumberjack_pancakes
 	{
 		private readonly Queue<Lumberjack> _breakfastLine = new Queue<Lumberjack>();
 
-		public Form1() 
+		public Form1()
 			=> InitializeComponent();
 
 		private void AddFlapjackBtn_Click(object sender, EventArgs e)

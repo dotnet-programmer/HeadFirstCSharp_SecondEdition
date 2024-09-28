@@ -12,7 +12,7 @@ namespace Delegates
 			Console.ReadKey();
 		}
 
-		private static string HiThere(int i) 
+		private static string HiThere(int i)
 			=> "Witamy, towarzyszu nr " + (i * 100);
 	}
 }

@@ -24,14 +24,12 @@ namespace Adventure_game_Expedition
 			=> _hitPoints -= random.Next(1, maxDamage);
 
 		protected bool NearPlayer()
-			=> (Nearby(game.PlayerLocation, NearPlayerDistance));
+			=> Nearby(game.PlayerLocation, NearPlayerDistance);
 
 		protected Direction FindPlayerDirection(Point playerLocation)
-		{
-			Direction directionToMove = playerLocation.X > location.X + 10
-				? Direction.Right
-				: playerLocation.X < location.X - 10 ? Direction.Left : playerLocation.Y < location.Y - 10 ? Direction.Up : Direction.Down;
-			return directionToMove;
-		}
+			=> playerLocation.X > location.X + 10
+				? Direction.Right : playerLocation.X < location.X - 10
+					? Direction.Left : playerLocation.Y < location.Y - 10
+						? Direction.Up : Direction.Down;
 	}
 }

@@ -11,10 +11,10 @@
 			ReturnContents(safeContents, owner);
 		}
 
-		public void WriteDownCombination(string combination) 
+		public void WriteDownCombination(string combination)
 			=> _writtenDownCombination = combination;
 
-		public void ReturnContents(Jewels safeContents, Owner owner) 
+		public void ReturnContents(Jewels safeContents, Owner owner)
 			=> owner.ReceiveContents(safeContents);
 	}
 }
